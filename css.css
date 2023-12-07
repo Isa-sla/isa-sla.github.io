@@ -1,0 +1,103 @@
+.dark{
+    --background: rgb(74, 34, 112);
+    --texto: white;
+    --backgroundCard: rgb(47, 21, 71);
+    --backgroundNavAc: rgb(28, 8, 46);
+    --textoNavAc-h3: white;
+    --textNav: white;
+    --backgroundNav: rgb(47, 21, 71);
+    --backgroundh3:rgb(28, 8, 46);
+    --backgroundbutton:rgb(28, 8, 46);
+}
+body{
+    --background: rgb(240, 231, 248);
+    --texto: black;
+    --backgroundCard: white;
+    --backgroundNavAc: rgb(172, 129, 212);
+    --textoNavAc-h3: white;
+    --textNav: rgb(171, 81, 255);
+    --backgroundNav:  rgb(211, 197, 224);
+    --backgroundh3:rgb(211, 197, 224);
+    --backgroundbutton:rgb(195, 161, 226);
+}
+#claroescuro{
+    background-color: var(--backgroundbutton); 
+    color: var(--textoNavAc-h3);
+    padding: 14px 16px;
+    float: right;
+    border-color: var(--backgroundbutton);
+}
+body{
+    background-color: var(--background);
+    color: var(--texto);
+}
+#des:hover{
+    background-color: var(--backgroundNavAc)  ;
+    color: var(--textoNavAc);
+}
+#des{
+    color: var(--textNav);
+}
+#navbar{
+    background-color: var(--backgroundNav); 
+}
+h3{
+    background-color: var(--backgroundh3);
+    color: var(--textoNavAc-h3);       
+}
+#des{
+    padding: 14px 16px;
+    float: left;
+}
+#navbar{
+    overflow: hidden; 
+    text-align: center; 
+    display: block;
+}
+.active{
+     text-align: center; padding: 14px 16px; float: left;
+}
+.card{
+    align-items: center; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: var(--backgroundCard);
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img{
+    width: 40%;
+    height: 10%;
+    border-radius: 20px;
+}
+h3{
+    border-radius: 15px;
+}
+#foi{
+    width: 20%;
+}
+#curiosidades{
+    width: 40%;
+}
+.btn{
+    background-color: var(--backgroundbutton) ;color:var(--textoNavAc-h3); border-color: var(--backgroundbutton); text-align: center; 
+}
+#dois, #tres, #quatro, #resultado{
+    display: none;
+}
+h5{
+    text-align: center;
+    background-color: var(--backgroundh3);
+    color: var(--textoNavAc-h3);
+}
+#foto{
+    width: 40%;
+    height: 70%;
+}
+#carddeck{
+    background-color: var(--backgroundh3);
+    
+}
